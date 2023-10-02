@@ -1,0 +1,15 @@
+.btn_logout{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+    object-fit: cover;
+    border-radius: 10px;
+    background: #8dc4e8;
+}
+.btn_logout:hover{
+    transform: scale(1);
+    letter-spacing: 0.5px;
+    font-weight: bolder;
+    background: #21618C;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../public/registro.css" rel="stylesheet"/>
+    <title>Registrarse</title>
+</head>
+<body>
+    <div class="fondo">
+    <div class="caja_form">
+        <span class="borderlinea"></span>
+        <!-- Formulario de registro -->
+        <form action="../controller/RegistrerController.php" method="post">
+            <h2>Registrarse</h2>
+            <div class="cajaInfo">
+    
+                <input type="text" name="name" required>
+                <span>Nombre completo</span>
+                <i></i>
+            </div>
+            <div class="cajaInfo">
+   
+                <input type="email" name="email" required>
+                <span>Correo electronico</span>
+                <i></i>
+            </div>
+            <div class="cajaInfo">
+
+                <input type="text" name="phone" required>
+                <span>Telefono</span>
+                <i></i>
+            </div>
+            <div class="cajaInfo">
+
+                <input type="text" name="user" required>
+                <span>Nombre usuario</span>
+                <i></i>
+            </div>
+            <div class="cajaInfo">
+
+                <input type="password" name="password" required="required">
+                <span>Contraseña</span>
+                <i></i>
+            </div>
+            <input type="submit" value="Registrarse">
+        </form>
+    </div>
+</div>
+</body>
+</html>

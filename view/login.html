@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../public/login.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="fondo">
+    <div class="caja_form">
+        <span class="borderlinea"></span>
+        <!-- Formulario del login -->
+        <form action="../controller/loginController.php" method="post">
+            <h2>Iniciar Sesion</h2>
+            <div class="cajaInfo">
+                
+                <input type="text" name="user" required="required" >
+                <span>Usuario</span>
+                <i></i>
+            </div>
+            <div class="cajaInfo">
+               
+                <input type="password" name="password" required="required">
+                <span>Contraseña</span>
+                <i></i>
+            </div>
+            <br>
+            <div class="link">
+                <a href="../view/registrarse.html">Registrarse...</a>
+            </div>
+            <input type="submit" value="Iniciar Sesion">
+            
+        </form>
+    </div>
+</div>
+</body>
+</html>
